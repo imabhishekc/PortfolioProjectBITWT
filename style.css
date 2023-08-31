@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Tahoma';
+    font-family: 'Poppins', sans-serif;
     scroll-behavior: smooth;
 }
 
@@ -40,6 +40,7 @@ nav {
     font-size: 25px;
     color: white;
     text-decoration: none;
+    font-weight: 100;
 }
 
 .logo::after {
@@ -62,6 +63,7 @@ nav .fas{
 }
 nav ul li {
     display: inline-block;
+    font-weight: 200;
     list-style: none;
     margin: 10px;
     position: relative;
@@ -188,7 +190,7 @@ nav .fas {
 }
 
 #home .max-width {
-    padding-top: 8%;
+    padding-top: 10%;
     width: 100%;
     display: flex;
 }
@@ -254,7 +256,7 @@ nav .fas {
     font-size: 25px;
     padding: 12px 36px;
     margin-top: 28px;
-    font-weight: 400;
+    font-weight: 200;
     border-radius: 6px;
     transition: all 0.3s ease;
     text-decoration: none;
@@ -281,10 +283,11 @@ nav .fas {
 }
 
 #about h1 {
-    padding-top: 20%;
+    padding-top: 10%;
     text-align: center;
     font-size: 40px;
     color: white;
+    font-weight: 400;
 }
 
 .about-section1 {
@@ -297,16 +300,16 @@ nav .fas {
 
 .about-section1>div>img {
     width: 180%;
-    border-radius: 20px;
-   
+    border-radius: 10px;
+    margin-top: 30%;
 }
 
 #user-detail-intro {
-    margin-top: 5%;
-    margin-left: 28%;
+    margin-top: 20%;
+    margin-left: 35%;
     color: white;
     font-size: 20px;
-    font-weight: 500;
+    font-weight: 300;
 }
 
 
@@ -316,6 +319,7 @@ nav .fas {
     color: white;
     text-align: center;
     font-size: 40px;
+    font-weight: 400;
     margin-bottom: 4%;
     padding-bottom: 5%;
 }
@@ -361,10 +365,11 @@ nav .fas {
 /* ........................................Project Section .................................. */
 
 #projects h1 {
-    padding-top: 5%;
+    padding-top: 10%;
     text-align: center;
     font-size: 40px;
-    margin-bottom: 3%;
+    font-weight: 400;
+    margin-bottom: 10%;
     color: white
 }
 
@@ -478,11 +483,15 @@ nav .fas {
 
 /* ..................................GitHUb.......................................... */
 .github-activity-calendar>h1:first-child {
-    margin-top: 8%;
+    margin-top: 10%;
+    font-weight: 400;
+    padding-bottom: 5%;
 }
 
 .github-activity-calendar>h1:nth-child(3) {
-    margin-top: 4%;
+    margin-top: 10%;
+    font-weight: 400;
+    padding-bottom: 5%;
 }
 
 .github-activity-calendar h1 {
@@ -527,6 +536,7 @@ nav .fas {
     text-align: center;
     color: white;
     font-size: 40px;
+    font-weight: 400;
     margin-top: 4%;
     margin-bottom: 2%;
 }
@@ -534,6 +544,7 @@ nav .fas {
 #contact>div>p {
     text-align: center;
     font-size: 20px;
+    font-weight: 200;
     margin-bottom: 2%;
     color: white;
 }
